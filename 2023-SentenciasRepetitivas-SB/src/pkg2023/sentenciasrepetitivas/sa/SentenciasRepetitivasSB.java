@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author miguelcatalan
  */
-public class SentenciasRepetitivasSA {
+public class SentenciasRepetitivasSB {
 
     /**
      * @param args the command line arguments
@@ -21,50 +21,45 @@ public class SentenciasRepetitivasSA {
         int conteoEstudiantes = 0, edadEstudiante = -1, cantidadEstudiantes = 0, sumatoriaEdades = 0;
         float edadPromedio = 0.0f;
         
-        System.out.println("Para detener el ingreso de estudiantes ingrese 0: ");
+        System.out.println("Ingrese el valor de 0 para detener la solicitud de estudiantes. ");
         //cantidadEstudiantes = scan.nextInt();
         /*
         while (conteoEstudiantes < cantidadEstudiantes) {
-            System.out.print("Ingrese la edad del estudiante: ");
+            System.out.print("Ingrese la edad de un estudiante: ");
             edadEstudiante = scan.nextInt();
             conteoEstudiantes = conteoEstudiantes + 1;
             sumatoriaEdades = sumatoriaEdades + edadEstudiante;
         }
         */
-        
-        //    contador                   condicion                              incremento contador
         /*
+        //    contador              condicion                                incr. o paso del contador
         for (conteoEstudiantes = 0; 
              conteoEstudiantes < cantidadEstudiantes; 
              conteoEstudiantes = conteoEstudiantes + 1) {
-            System.out.print("Ingrese la edad del estudiante: ");
+            System.out.print("Ingrese la edad de un estudiante: ");
             edadEstudiante = scan.nextInt();
             sumatoriaEdades = sumatoriaEdades + edadEstudiante;
         }
         */
         
-        
         while (edadEstudiante != 0) {
-            System.out.print("Ingrese la edad del estudiante: ");
+            System.out.print("Ingrese la edad de un estudiante: ");
             edadEstudiante = scan.nextInt();
             conteoEstudiantes = conteoEstudiantes + 1;
             sumatoriaEdades = sumatoriaEdades + edadEstudiante;
             if (edadEstudiante == 10)
                 continue;
-            System.out.println("Esto esta despues del continue...");
+            System.out.println("Esto esta después del continue...");
         }
-        
         
         /*
         do {
-            System.out.print("Ingrese la edad del estudiante: ");
+            System.out.print("Ingrese la edad de un estudiante: ");
             edadEstudiante = scan.nextInt();
             conteoEstudiantes = conteoEstudiantes + 1;
             sumatoriaEdades = sumatoriaEdades + edadEstudiante;
         } while (edadEstudiante != 0);
         */
-        
-
         edadPromedio = sumatoriaEdades / conteoEstudiantes;
         System.out.println("La edad promedio de los estudiantes es de: " + edadPromedio);
     }
