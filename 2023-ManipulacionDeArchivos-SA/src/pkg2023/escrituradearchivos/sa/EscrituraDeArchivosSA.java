@@ -37,8 +37,8 @@ public class EscrituraDeArchivosSA {
         System.out.println("1. Escribir registro");
         System.out.println("2. Agregar registro");
         System.out.println("3. Leer registros");
-        System.out.println("4. Actuaizar registro");
-        System.out.println("5. Eliminar archivo");
+        System.out.println("4. Actualizar registro");
+        System.out.println("5. Eliminar registro");
         System.out.print("Seleccione operacion a realizar: ");
         opcion = scan.nextInt();
         
