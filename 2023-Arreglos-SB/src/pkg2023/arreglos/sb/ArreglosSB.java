@@ -4,6 +4,7 @@
  */
 package pkg2023.arreglos.sb;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 
@@ -87,7 +88,9 @@ public class ArreglosSB {
         
         
         //ArrayList
+        ArrayList r = new ArrayList();
         // add
+        r.add(1);
         // clear
         // contains
         // get
