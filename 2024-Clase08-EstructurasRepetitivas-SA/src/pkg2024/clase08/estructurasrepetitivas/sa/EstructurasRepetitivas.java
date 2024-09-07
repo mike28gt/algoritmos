@@ -15,20 +15,28 @@ public class EstructurasRepetitivas {
     public static void main (String[] args) {
     
         Scanner scan = new Scanner(System.in);
+        int acumuladorEdades = 0;
+        int contadorEstudiantes = 0;
         
         System.out.print("Ingrese la edad del estudiante: ");
         int edadEstudiante1 = scan.nextInt();
         
+        acumuladorEdades = acumuladorEdades + edadEstudiante1;
+        contadorEstudiantes = contadorEstudiantes + 1;
+        
         System.out.print("Ingrese la edad del estudiante: ");
         int edadEstudiante2 = scan.nextInt();
+        
+        acumuladorEdades = acumuladorEdades + edadEstudiante2;
+        contadorEstudiantes = contadorEstudiantes + 1;
         
         System.out.print("Ingrese la edad del estudiante: ");
         int edadEstudiante3 = scan.nextInt();
         
-        int sumatoriaEdades = edadEstudiante1 + edadEstudiante2 + edadEstudiante3;
-        int cantidadEstudiantes = 3;
+        acumuladorEdades = acumuladorEdades + edadEstudiante3;
+        contadorEstudiantes = contadorEstudiantes + 1;
         
-        float edadPromedio = sumatoriaEdades / cantidadEstudiantes;
+        float edadPromedio = acumuladorEdades / contadorEstudiantes;
         
         System.out.format("La edad promedio de los estudiantes es de %.2f \n", edadPromedio);
     
