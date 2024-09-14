@@ -1,2 +1,0 @@
-1|Etiqueta 1
-2|Etiqueta 2
