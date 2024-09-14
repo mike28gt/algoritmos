@@ -13,7 +13,52 @@ import java.util.Scanner;
 public class EstructurasRepetitivas {
 
     public static void main (String[] args) {
-    
+
+        Scanner scan = new Scanner(System.in);
+        int acumuladorEdades = 0;
+        int contadorEstudiantes = 0;
+        float edadPromedio = 0.0f;
+        int edadEstudiante = 0;
+
+        do  {
+            System.out.print("Ingrese la edad del estudiante: ");
+            edadEstudiante = scan.nextInt();
+            
+            acumuladorEdades = acumuladorEdades + edadEstudiante;
+            contadorEstudiantes = contadorEstudiantes + 1;
+            
+        } while (edadEstudiante > 0);
+        
+        edadPromedio = acumuladorEdades / contadorEstudiantes;
+        
+        System.out.format("La edad promedio de los estudiantes es de %.2f \n", edadPromedio);
+        
+        
+        /*
+        Scanner scan = new Scanner(System.in);
+        int acumuladorEdades = 0;
+        int contadorEstudiantes = 0;
+        float edadPromedio = 0.0f;
+        
+        System.out.print("Ingrese la edad del estudiante: ");
+        int edadEstudiante = scan.nextInt();
+        
+        while (edadEstudiante > 0) {
+            acumuladorEdades = acumuladorEdades + edadEstudiante;
+            contadorEstudiantes = contadorEstudiantes + 1;
+            
+            System.out.print("Ingrese la edad del estudiante: ");
+            edadEstudiante = scan.nextInt();
+        }
+        
+        if (contadorEstudiantes != 0) {
+            edadPromedio = acumuladorEdades / contadorEstudiantes;
+        }
+        
+        System.out.format("La edad promedio de los estudiantes es de %.2f \n", edadPromedio);
+        */
+        
+        /*
         Scanner scan = new Scanner(System.in);
         int acumuladorEdades = 0;
         int contadorEstudiantes = 0;
@@ -39,7 +84,7 @@ public class EstructurasRepetitivas {
         float edadPromedio = acumuladorEdades / contadorEstudiantes;
         
         System.out.format("La edad promedio de los estudiantes es de %.2f \n", edadPromedio);
-    
+        */
     }
     
 }
