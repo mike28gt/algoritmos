@@ -22,7 +22,10 @@ public class Paqueteria {
         
         Scanner scan = new Scanner(System.in);
         
+        System.out.print("Ingrese zona de entrega: ");
         int zonaEntrega = scan.nextInt();
+        
+        System.out.print("Ingrese peso de paquete (g): ");
         float pesoPaquete = scan.nextFloat();
         
         float pesoEnKilogramos = pesoPaquete / 1000;
@@ -45,13 +48,53 @@ public class Paqueteria {
                     tarifa = 27.00f;
                     break;
                 default:
+                    System.err.print("La zona ingresada no es válida.\n");
                     break;
             }
             
             totalAPagar = pesoEnKilogramos * tarifa;
             
-            System.out.println(totalAPagar);
+            System.out.format("El total a pagar por el paquete de %.2f kg a la zona %d es de GTQ %.2f%n", pesoEnKilogramos, zonaEntrega, totalAPagar);
         }
+        
+        
+        
+        /*
+        float tarifa = 0.0f;
+        float totalAPagar = 0.0f;
+        
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.print("Ingrese zona de entrega: ");
+        int zonaEntrega = scan.nextInt();
+        
+        System.out.print("Ingrese peso de paquete (g): ");
+        float pesoPaquete = scan.nextFloat();
+        
+        float pesoEnKilogramos = pesoPaquete / 1000;
+        
+        if (pesoEnKilogramos <= 5) {
+            if (zonaEntrega == 1) {
+                tarifa = 11.00f;
+            }
+            else if (zonaEntrega == 2) {
+                tarifa = 10.00f;
+            }
+            else if (zonaEntrega == 3) {
+                tarifa = 12.00f;
+            }
+            else if (zonaEntrega == 4) {
+                tarifa = 24.00f;
+            }
+            else if (zonaEntrega == 5) {
+                tarifa = 27.00f;
+            }
+            
+            totalAPagar = pesoEnKilogramos * tarifa;
+            
+            System.out.format("El total a pagar por el paquete de %.2f kg a la zona %d es de GTQ %.2f%n", pesoEnKilogramos, zonaEntrega, totalAPagar);
+        }
+        */
     }
     
 }

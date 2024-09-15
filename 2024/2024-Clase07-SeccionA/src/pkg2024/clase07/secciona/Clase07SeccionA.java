@@ -17,6 +17,7 @@ public class Clase07SeccionA {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
         float descuento = 0.0f;
         Scanner scan = new Scanner(System.in);
         
@@ -25,12 +26,6 @@ public class Clase07SeccionA {
         
         if (precioTraje > 2500) {
             descuento = precioTraje * 0.15f;
-            
-            if (true) {
-                if (true) {
-                } else {
-                }
-            }
         } else if (precioTraje == 1000) {
             descuento = precioTraje * 0.10f;
         } else {
@@ -40,6 +35,60 @@ public class Clase07SeccionA {
         float precioConDescuento = precioTraje - descuento;
         
         System.out.format("El descuento del traje es de GTQ%.2f y el precio con descuento del traje es GTQ%.2f%n.", descuento, precioConDescuento);
+        
+
+        
+        /*
+        float descuento = 0.0f;
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.print("Ingrese precio del traje: GTQ ");
+        float precioTraje = scan.nextFloat();
+        
+        if (precioTraje > 2500) {
+            descuento = precioTraje * 0.15f;
+        } else {
+            descuento = precioTraje * 0.10f;
+        }
+
+        float precioConDescuento = precioTraje - descuento;
+        
+        System.out.format("El descuento del traje es de GTQ %.2f y el precio con descuento del traje es GTQ %.2f%n.", descuento, precioConDescuento);
+        */
+        
+        
+        
+        /*
+        float descuento = 0.0f;
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.print("Ingrese precio del traje: GTQ ");
+        float precioTraje = scan.nextFloat();
+        
+        if (precioTraje > 2500) {
+            descuento = precioTraje * 0.15f;
+        }
+
+        float precioConDescuento = precioTraje - descuento;
+        
+        System.out.format("El descuento del traje es de GTQ %.2f y el precio con descuento del traje es GTQ %.2f%n.", descuento, precioConDescuento);
+        */
+        
+        
+        
+        /*
+        float descuento = 0.0f;
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.print("Ingrese precio del traje: GTQ ");
+        float precioTraje = scan.nextFloat();
+
+        descuento = precioTraje * 0.15f;
+        
+        float precioConDescuento = precioTraje - descuento;
+        
+        System.out.format("El descuento del traje es de GTQ %.2f y el precio con descuento del traje es GTQ %.2f%n.", descuento, precioConDescuento);
+        */
     }
     
 }
