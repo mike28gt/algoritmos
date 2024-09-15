@@ -14,6 +14,7 @@ public class EstructurasRepetitivas {
 
     public static void main (String[] args) {
     
+  
         Scanner scan = new Scanner(System.in);
         int acumuladorEdades = 0;
         int contadorEstudiantes = 0;
@@ -39,9 +40,11 @@ public class EstructurasRepetitivas {
         
         float edadPromedio = acumuladorEdades / contadorEstudiantes;
         
-        System.out.format("La edad promedio de los estudiantes es de %.2f \n", edadPromedio);    
+        System.out.format("La edad promedio de los estudiantes es de %.2f \n", edadPromedio);
         
-    }
+                
+    
+    
         /*
         Scanner scan = new Scanner(System.in);
         int acumuladorEdades = 0;
@@ -65,6 +68,8 @@ public class EstructurasRepetitivas {
         System.out.format("La edad promedio de los estudiantes es de %.2f \n", edadPromedio);
         */
         
+    
+    
         /*
         Scanner scan = new Scanner(System.in);
         int acumuladorEdades = 0;
@@ -85,7 +90,38 @@ public class EstructurasRepetitivas {
         float edadPromedio = acumuladorEdades / contadorEstudiantes;
         
         System.out.format("La edad promedio de los estudiantes es de %.2f \n", edadPromedio);
-       
+        */
+        
+        
+        
+        /*
+        Scanner scan = new Scanner(System.in);
+        int acumuladorEdades = 0;
+        int contadorEstudiantes = 0;
+        
+        System.out.print("Ingrese la edad del primer estudiante: ");
+        int edadPrimerEstudiante = scan.nextInt();
+        
+        acumuladorEdades = acumuladorEdades + edadPrimerEstudiante;
+        contadorEstudiantes = contadorEstudiantes + 1;
+        
+        
+        System.out.print("Ingrese la edad del segundo estudiante: ");
+        int edadSegundoEstudiante = scan.nextInt();
+        
+        acumuladorEdades = acumuladorEdades + edadSegundoEstudiante;
+        contadorEstudiantes = contadorEstudiantes + 1;
+        
+        
+        System.out.print("Ingrese la edad del tercer estudiante: ");
+        int edadTercerEstudiante = scan.nextInt();
+        
+        acumuladorEdades = acumuladorEdades + edadTercerEstudiante;
+        contadorEstudiantes = contadorEstudiantes + 1;
+        
+        float edadPromedio = acumuladorEdades / contadorEstudiantes;
+        
+        System.out.format("La edad promedio de los estudiantes es de %.2f \n", edadPromedio);
+        */
     }
-    */
 }
