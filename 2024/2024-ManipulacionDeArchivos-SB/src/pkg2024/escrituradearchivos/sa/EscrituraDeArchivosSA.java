@@ -49,6 +49,7 @@ public class EscrituraDeArchivosSA {
                         FileWriter fw = new FileWriter(f);
                         BufferedWriter bw = new BufferedWriter(fw);
                         bw.write("123456|Miguel|Catalan|M|21|Ingeniería\n");
+                        bw.write("234567|Jorge|Tepet|M|21|Ingeniería\n");
                         bw.close();
                     } catch (IOException ex) {
                         Logger.getLogger(EscrituraDeArchivosSA.class.getName()).log(Level.SEVERE, null, ex);
