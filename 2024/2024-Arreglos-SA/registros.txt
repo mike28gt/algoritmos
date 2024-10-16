@@ -1,0 +1,50 @@
+000001|Maria|Díaz|M|21|Informática
+000002|Luisa|Vásquez|F|18|Ingeniería
+000003|Luis|Hernández|M|25|Administración
+000004|Luis|Jiménez|F|28|Arquitectura
+000005|Ana|Rodríguez|F|28|Ciencias Sociales
+000006|Sofia|Gómez|M|25|Matemáticas
+000007|Maria|Martínez|F|20|Biología
+000008|Ana|Hernández|M|25|Arquitectura
+000009|Luisa|Hernández|F|29|Administración
+000010|Luis|Díaz|M|19|Administración
+000011|Jorge|Gómez|F|19|Economía
+000012|Erick|Morales|M|21|Arquitectura
+000013|Ana|Morales|M|25|Medicina
+000014|Carlos|García|F|19|Ingeniería
+000015|Jorge|Gómez|F|22|Medicina
+000016|Maria|Díaz|F|19|Informática
+000017|Maria|Gómez|M|20|Ciencias Sociales
+000018|Erick|Martínez|M|28|Ingeniería
+000019|Carlos|Rodríguez|F|26|Medicina
+000020|Maria|Jiménez|M|18|Administración
+000021|Miguel|Martínez|M|25|Medicina
+000022|Sofia|Vásquez|M|19|Matemáticas
+000023|Maria|Rodríguez|M|29|Informática
+000024|Ana|Martínez|F|22|Medicina
+000025|Carmen|Rodríguez|F|27|Arquitectura
+000026|Maria|Morales|F|18|Matemáticas
+000027|Jorge|Díaz|F|24|Economía
+000028|Erick|Jiménez|M|27|Biología
+000029|Carlos|Rodríguez|F|25|Medicina
+000030|Sofia|Rodríguez|F|28|Derecho
+000031|Sofia|Morales|F|30|Ciencias Sociales
+000032|Carmen|Gómez|F|26|Arquitectura
+000033|Luisa|Gómez|M|26|Arquitectura
+000034|Luisa|Martínez|M|30|Ciencias Sociales
+000035|Jorge|Hernández|M|28|Economía
+000036|Miguel|Jiménez|M|23|Biología
+000037|Carmen|Morales|M|27|Ingeniería
+000038|Luis|Gómez|M|26|Informática
+000039|Miguel|Hernández|M|18|Economía
+000040|Luis|García|M|20|Ciencias Sociales
+000041|Miguel|Díaz|F|26|Derecho
+000042|Jorge|Jiménez|M|27|Matemáticas
+000043|Luisa|Vásquez|M|22|Medicina
+000044|Miguel|Rodríguez|M|29|Biología
+000045|Ana|Gómez|F|30|Economía
+000046|Jorge|Jiménez|M|22|Ciencias Sociales
+000047|Erick|Jiménez|F|20|Ciencias Sociales
+000048|Sofia|López|F|20|Economía
+000049|Sofia|Martínez|M|23|Informática
+000050|Luisa|Morales|M|22|Medicina
