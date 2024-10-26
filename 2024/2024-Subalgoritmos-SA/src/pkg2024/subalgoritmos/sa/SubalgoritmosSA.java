@@ -38,9 +38,9 @@ public class SubalgoritmosSA {
                     System.out.print("Ingrese segundo número: ");
                     segundoNumero = scan.nextInt();
                     
-                    resultado = primerNumero + segundoNumero;
+                    System.out.println("Resultado desde el main: " + sumar(primerNumero, segundoNumero));
                     
-                    System.out.format("Resultado: %d\n", resultado);
+                    System.out.println("Se regresa al método main...");
                     break;
             case 2: System.out.print("Ingrese primer número: ");
                     primerNumero = scan.nextInt();
@@ -129,4 +129,26 @@ public class SubalgoritmosSA {
         return accesoValido;
         */
     }
+   
+    public static int sumar (int parametroPrimerNumero, int parametroSegundoNumero) {
+        System.out.println("Se ingresó al método sumar...");
+        /*
+        int primerNumero = 0;
+        int segundoNumero = 0;
+        */
+        int resultado = 0;
+        /*
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.print("Ingrese primer número: ");
+        primerNumero = scan.nextInt();
+        System.out.print("Ingrese segundo número: ");
+        segundoNumero = scan.nextInt();
+        */
+        resultado = parametroPrimerNumero + parametroSegundoNumero;
+
+        return resultado;
+        //System.out.format("Resultado: %d\n", resultado);
+    }
+    
 }
